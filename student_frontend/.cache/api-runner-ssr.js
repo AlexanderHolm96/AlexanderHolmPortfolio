@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/sohailhasware/GitHub/student-portfolio/student_frontend/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/ilice/Programmering/student-portfolio/student_frontend/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/sohailhasware/GitHub/student-portfolio/student_frontend/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('C:/Users/ilice/Programmering/student-portfolio/student_frontend/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/sohailhasware/GitHub/student-portfolio/student_frontend/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
+      plugin: require('C:/Users/ilice/Programmering/student-portfolio/student_frontend/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":[{"family":"Roboto","variants":["400","700"]},{"family":"Open Sans"}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
