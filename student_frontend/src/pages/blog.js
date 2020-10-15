@@ -4,19 +4,23 @@ import { graphql } from "gatsby"
 import Blogs from "../components/Blogs"
 import SEO from "../components/SEO"
 // ...GatsbyImageSharpFluid
-
+import {
+  BlogPagesWrapper,
+} from "../elements"
 const Blog = ({
   data: {
     allStrapiBlogs: { nodes: blogs },
   },
 }) => {
   return (
+    <BlogPagesWrapper>
     <Layout>
       <SEO title="Bloggen" description="Bloggsidan" />
       <section className="blog-page">
         <Blogs blogs={blogs} title="Alla artiklar" />
       </section>
     </Layout>
+    </BlogPagesWrapper>
   )
 }
 export const query = graphql`

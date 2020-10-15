@@ -1,7 +1,13 @@
 import React from "react"
 import SocialLinks from "../constants/socialLinks"
+import {
+  FooterWrapper,
+} from "../elements"
+
 const Footer = () => {
   return (
+
+    <FooterWrapper>
     <footer className="footer">
       <div className="footer-content">
         <SocialLinks styleClass="footer-links"></SocialLinks>
@@ -11,6 +17,7 @@ const Footer = () => {
         </h4>
       </div>
     </footer>
+    </FooterWrapper>
   )
 }
 

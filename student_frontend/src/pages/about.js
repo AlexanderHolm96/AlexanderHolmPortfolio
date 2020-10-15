@@ -7,6 +7,9 @@ import { Link } from "gatsby"
 import ReactMarkdown from "react-markdown"
 import SEO from "../components/SEO"
 import downloadFile from "../../static/SohailCV2020.pdf"
+import {
+  AboutWrapper,
+} from "../elements"
 // ...GatsbyImageSharpFluid
 const About = ({
   data: {
@@ -16,6 +19,7 @@ const About = ({
   //console.log(nodes)
   const { info, stack, title, image } = nodes[0]
   return (
+    <AboutWrapper>
     <Layout>
       <SEO title="CV" description="Sohails CV" />
       <section className="about-page">
@@ -45,6 +49,7 @@ const About = ({
         <></>
       </section>
     </Layout>
+    </AboutWrapper>
   )
 }
 

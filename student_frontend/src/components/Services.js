@@ -1,8 +1,13 @@
 import React from "react"
 import Title from "./Title"
 import services from "../constants/services"
+import {
+  ServicesWrapper,
+} from "../elements" 
 const Services = () => {
   return (
+
+    <ServicesWrapper>
     <section className="section bg-grey">
       <Title title="Tjänster" />
       <div className="section-center services-center">
@@ -21,6 +26,8 @@ const Services = () => {
         })}
       </div>
     </section>
+    </ServicesWrapper>
+
   )
 }
 

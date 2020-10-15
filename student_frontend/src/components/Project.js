@@ -2,8 +2,13 @@ import React from "react"
 import PropTypes from "prop-types"
 import Image from "gatsby-image"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
+import {
+  ProjectWrapper,
+} from "../elements"
+
 const Project = ({ description, title, github, stack, url, image, index }) => {
   return (
+    <ProjectWrapper>
     <article className="project">
       {/* if image is not supplied, instead of breaking, dont show any image */}
       {image && (
@@ -29,6 +34,7 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
         </div>
       </div>
     </article>
+    </ProjectWrapper>
   )
 }
 
