@@ -35,54 +35,18 @@ const Hero = () => {
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
-            <h1>I'm Sohail</h1>
+            <h1>Jag heter Alex!</h1>
             <div className="underline"></div>
-            <h4>Utbildningsledare inom YH och utbildare inom IT</h4>
-            - 🔭 I’m currently working on my own Portfolio site
+            <h4>Elev på TUC YH</h4>
+            - 🔭 Jag jobbar med att skapa en portfolio site
             <br />
-            - 🌱 I’m currently learning React, Gatsby, GraphQL and Strapi
+            - 🌱 Just nu lär jag mig React, Gatsby, GraphQL and Strapi
             <br />
-            - 🤔 I’m looking for help with anything frontend :)
+            - 🤔 Jag är en aktiv supporter av AC Milan!
             <br />
-            - 💬 Ask me about Rhodesian Ridgebacks
+            - 💬 Fråga mig om italiensk fotboll.
             <br />
-            - 😄 Pronouns: Inquisitive, break the mold.. <br />- 💜{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://strapi.io/documentation/v3.x/getting-started/introduction.html"
-            >
-              Strapi
-            </a>
-            ,{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://reactjs.org/docs/getting-started.html"
-            >
-              React
-            </a>
-            ,{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.gatsbyjs.org/docs/"
-            >
-              Gatsby
-            </a>{" "}
-            ,{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://styled-components.com/docs"
-            >
-              Styled Components
-            </a>
-            <br />
-            - ⚡ Fun fact: I used to fly planes
-            <br />
-            - 📫 How to reach me: use the link below :)
-            <br />
+            
             <Link to="/contact" className="btn">
               kontakta mig
             </Link>
