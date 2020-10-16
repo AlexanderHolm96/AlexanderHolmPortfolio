@@ -1,1 +1,1 @@
-import "./src/themes/theme.css"
+import "./src/css/main.css"
